@@ -1,0 +1,12 @@
+# Local Python environment and editor settings
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+.pytest_cache/
+*.py[cod]
+# Original large UCI/Kaggle datasets belong locally only, not in GitHub.
+data/*
+!data/.gitkeep
+# Optional temporary files
+.DS_Store
